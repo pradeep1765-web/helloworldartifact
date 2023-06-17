@@ -13,7 +13,7 @@ pipeline {
     }
     stage("stage4 ") {
       steps {     
-        bat 'echo stage 4 completed '
+        bat 'echo stage 4 completed for webhook'
       }
     }
     stage("stage5 ") {
